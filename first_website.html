@@ -1,32 +1,117 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Kinar's Website</title>    
-<style>
-    body{
-        background-color: green;
-        text-align: center;
-    }
-    h1{
-        color: greenyellow;
-    }
-    p{
-        color: yellow;
-    }
-    img{
-        width:  500px;
-    }
-</style>
-</head>
-
-<body>
-<h1>This is a heading</h1>  
-<h2>This is a heading</h2>
-<h3>This is a heading</h3>
-<h4>This is a heading</h4>
-<h5>This is a heading</h5>
-<h6>This is a heading</h6>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Hudson New York</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-<p>This is my paragraph. ThThis is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. is is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. This is my paragraph. </p>    
-<img src="s15.jpg"> 
-</body>     
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="first_website.html"><img src="lighthouse.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=""><i class="fa fa-instagram"></i><a href="https://www.instagram.com/kinarislam/">Instagram</a></a></li>
+                    <li><a href=""><i class="fa fa-facebook"></i><a href="https://www.facebook.com/kinar.islam.545/">Facebook</a></a></li>
+                    <li><a href=""><i class="fa fa-tiktok"></i><a href="https://www.tiktok.com/@kinarislam">TikTok</a></a></li>
+                    <li><a href=""><i class="fa fa-youtube"></i><a href="https://www.youtube.com/channel/UCUOMN2cFg5428rz_hcZAq8w">Youtube</a></a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>Hudson New York</h1>
+    <p>Hudson, NY is a small city with a rich history and a magnificent location on the east shore of the Hudson River 120 miles north of New York Harbor. <br> It was originally inhabited by the Mohican Indians. The first known European to navigate the river was Henry Hudson in 1609.</p>
+    <a href=""class="hero-btn">Visit Us to Learn More</a>
+        
+        
+</div>
+    
+</section>
+
+<!----- course ----->
+    
+<section class="Locations">
+    <h1><i class="fa fa-binoculars"></i>Top Sights in Hudson<i class="fa fa-binoculars"></i></h1>
+    
+    <div class="row">
+        <div class="location-col">
+        <h3><a href="https://www.youtube.com/watch?v=0ZNWRcyX2UI">Olana State Historic Site</a></h3>
+        <p>The 250 acre historic estate features an elaborately stenciled, Persian-inspired mansion filled with original sketches, studies and paintings by one of the mid-19th century's most famous artists. A diverse decorative arts collection includes objects from around the world.</p>
+        </div>
+                <div class="location-col">
+        <h3><a href="https://www.youtube.com/watch?v=rltB7VSiiJY">Bash Bish Falls</a></h3>
+        <p>Bash Bish Falls is the highest waterfall in Massachusetts and a popular scenic destination. The dramatic final pitch of Bash Bish Brook drops about 80 feet into an emerald plunge pool. Enjoy a hike to experience the wonder and beauty of this deep, verdant gorge.</p>
+        </div>
+                <div class="location-col">
+        <h3><a href=" https://www.youtube.com/watch?v=xIKSnbkanhU&t=10s">Lake Taghkanic State Park</a></h3>
+        <p>Special features of the park include a tent and small trailer camping area, a cabin and cottage area, a bathing beach, secluded picnic areas, boat rentals, playground areas, a ball field and hiking trails. There is also a picnic pavilion available for rental. Lake Taghkanic is open year round for day use activities.</p>
+        </div>
+    </div>
+    s
+    
+    
+</section>
+    
+<section class="Places to Eat">
+    <h1><i class="fa fa-cutlery"></i>Time to Grub!<i class="fa fa-cutlery"></i></h1>
+    
+    <div class="row">
+        <div. class="food-col">
+            <img src="curry.png">
+            <div class="layer">
+            <h3>Hudson Curry House</h3>
+            </div>
+        </div.>
+        <div. class="food-col">
+            <img src="dominos.jpg">
+            <div class="layer">
+            <h3>Dominos</h3>
+            </div>
+        </div.>
+        <div. class="food-col">
+            <img src="asiancafe.jpg">
+            <div class="layer">
+            <h3>Asian Cafe</h3>
+            </div>
+        </div.>
+    </div>
+</section>
+
+    
+<!------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    
+    
+</script>
+    
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
